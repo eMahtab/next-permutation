@@ -69,7 +69,9 @@ class Solution {
 ### Observations :
 For a decreasing permutation e.g. e.g. [5, 4, 3, 2, 1] we will not find a nums[i] in step 1, since nums[i] < nums[i+1] will never be the case for a decreasing permutation. 
 
-e.g. [5, 4, 3, 2, 1] so index i will become -1. Since i is less than 0, it means we don't need to swap nums[i] and nums[j]. And we just reverse the elements in the permutation from i+1 to end of the array, in this case 0 to end of the array. So the next permutation in this case will be [1, 2, 3, 4, 5]
+e.g. [5, 4, 3, 2, 1] so index i will become -1. Since i is less than 0, it means we don't need to swap nums[i] and nums[j]. 
+
+And we just reverse the elements in the permutation from i+1 to end of the array, in this case 0 to end of the array. So the next permutation in this case will be [1, 2, 3, 4, 5]
 
 # References :
 1. https://www.youtube.com/watch?v=Ptc_r7DIpSE
